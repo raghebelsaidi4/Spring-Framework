@@ -149,4 +149,134 @@ public class ProductController {
 | Web MVC        | Web application framework                 | Traditional web apps            |
 | Spring REST    | REST API development                      | Microservices, APIs             |
 
-This modular architecture enables developers to select needed components while maintaining lightweight application structure.
+
+## 8. Spring Security
+**Application Security**:  
+Provides comprehensive security features for Spring-based applications:
+
+**Key Concepts**:
+- **Authentication**: Verify user identity (Who can access?)
+  - Username/password validation
+  - OAuth2/SAML integration
+  - LDAP authentication
+- **Authorization**: Control access rights (What can they do?)
+  - Role-based access control (RBAC)
+  - Method-level security
+  - Permission evaluations
+
+**Key Features**:
+- CSRF (Cross-Site Request Forgery) protection
+- Session management
+- Password encoding
+- Security headers configuration
+- Integration with OAuth2 and JWT
+
+```java
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+            .authorizeRequests()
+                .antMatchers("/admin/**").hasRole("ADMIN")
+                .antMatchers("/user/**").hasAnyRole("USER", "ADMIN")
+                .anyRequest().authenticated()
+            .and()
+            .formLogin();
+    }
+}
+```
+
+## 9. Spring Batch
+**Batch Processing Framework**:  
+Enables development of robust batch applications for bulk operations:
+
+**Common Use Cases**:
+- Bulk email/SMS campaigns
+- Large-scale data migration
+- File processing (CSV/XML to database)
+- Scheduled report generation
+- Payroll processing
+
+**Architecture Components**:
+- **Job**: Complete batch process
+- **Step**: Individual processing unit
+- **ItemReader**: Data input
+- **ItemProcessor**: Business logic
+- **ItemWriter**: Data output
+
+**Key Features**:
+- Transaction management
+- Chunk-based processing
+- Job restart capabilities
+- Parallel processing
+- Built-in listeners and metrics
+
+```java
+@Bean
+public Job importUserJob(JobRepository jobRepository, Step step) {
+    return new JobBuilder("importUserJob", jobRepository)
+        .start(step)
+        .build();
+}
+
+@Bean
+public Step step(JobRepository jobRepository, PlatformTransactionManager transactionManager) {
+    return new StepBuilder("step", jobRepository)
+        .<User, User>chunk(100, transactionManager)
+        .reader(reader())
+        .processor(processor())
+        .writer(writer())
+        .build();
+}
+```
+
+## 10. Spring Cloud
+**Microservices Architecture Support**:  
+Provides tools for building distributed systems and cloud-native applications:
+
+![Microservices Architecture](https://github.com/user-attachments/assets/c9fda3cd-4737-4fb6-9250-0c72760db6cd)
+
+**Key Components**:
+| Service              | Functionality                          |
+|----------------------|----------------------------------------|
+| **Config Server**    | Centralized configuration management   |
+| **Eureka**           | Service discovery & registration       |
+| **Zuul**             | API gateway & routing                  |
+| **Hystrix**          | Circuit breaker pattern implementation |
+| **Sleuth**           | Distributed tracing                    |
+
+**Main Features**:
+- Cloud configuration management
+- Service-to-service communication
+- Load balancing
+- Distributed messaging
+- API gateway patterns
+- Configuration versioning
+
+**Typical Use Cases**:
+- Building 12-factor applications
+- Implementing cloud-native patterns
+- Developing resilient microservices
+- Managing distributed configurations
+- Implementing API gateways
+
+## Complete Module Comparison Table
+
+| Module         | Key Features                              | Typical Use Cases               |
+|----------------|-------------------------------------------|---------------------------------|
+| Spring Core    | IOC, DI, Bean management                  | Application foundation          |
+| Spring Security| Authentication, Authorization             | Secure web applications         |
+| Spring Batch   | Batch processing, Chunk operations        | Bulk data processing            |
+| Spring Cloud   | Microservices, Distributed systems        | Cloud-native applications       |
+| Spring Context | Advanced configuration                    | Enterprise configuration        |
+| Spring AOP     | Aspect programming                        | Cross-cutting concerns          |
+| Spring JDBC    | Database access simplification            | SQL-based applications          |
+| Spring ORM     | ORM integration                           | Hibernate/JPA projects          |
+| Web MVC        | Web application framework                 | Traditional web apps            |
+| Spring REST    | REST API development                      | Microservices, APIs             |
+
+
+    
+
