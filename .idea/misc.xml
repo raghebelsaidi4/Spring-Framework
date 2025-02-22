@@ -7,7 +7,15 @@
         <option value="$PROJECT_DIR$/session-04/spring-core-project/pom.xml" />
         <option value="$PROJECT_DIR$/session-06/spring-annotation-project/pom.xml" />
         <option value="$PROJECT_DIR$/session-08/lombok-project/pom.xml" />
+        <option value="$PROJECT_DIR$/session-15/mvc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-jdbc-project/pom.xml" />
+        <option value="$PROJECT_DIR$/session-13(project)/spring-jpa-project/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/session-15/mvc-demo/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK">

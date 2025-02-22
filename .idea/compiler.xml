@@ -11,6 +11,26 @@
         <module name="lombok-project" />
         <module name="spring-annotation-project" />
       </profile>
+      <profile name="Annotation profile for mvc-demo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="spring-jdbc-project" />
+        <module name="spring-jpa-project" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mvc-demo" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mvc-demo" options="-parameters" />
+      <module name="spring-jdbc-project" options="-parameters" />
+      <module name="spring-jpa-project" options="-parameters" />
+    </option>
   </component>
 </project>
