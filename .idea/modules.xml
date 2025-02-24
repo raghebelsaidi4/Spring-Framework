@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Framework - Microservice.iml" filepath="$PROJECT_DIR$/.idea/Spring-Framework - Microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/session-13(project)/spring-jpa-project/spring-jpa-project.iml" filepath="$PROJECT_DIR$/session-13(project)/spring-jpa-project/spring-jpa-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-project/spring-mvc-project.iml" filepath="$PROJECT_DIR$/spring-mvc-project/spring-mvc-project.iml" />
     </modules>
   </component>
 </project>

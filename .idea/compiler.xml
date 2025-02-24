@@ -11,7 +11,7 @@
         <module name="lombok-project" />
         <module name="spring-annotation-project" />
       </profile>
-      <profile name="Annotation profile for mvc-demo" enabled="true">
+      <profile name="Annotation profile for spring-mvc-project" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -20,6 +20,7 @@
         </processorPath>
         <module name="spring-jdbc-project" />
         <module name="spring-jpa-project" />
+        <module name="spring-mvc-project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +32,7 @@
       <module name="mvc-demo" options="-parameters" />
       <module name="spring-jdbc-project" options="-parameters" />
       <module name="spring-jpa-project" options="-parameters" />
+      <module name="spring-mvc-project" options="-parameters" />
     </option>
   </component>
 </project>
