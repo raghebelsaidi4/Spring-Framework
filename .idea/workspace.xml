@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3896442d-3fb5-49f9-8aaf-158b0d5adb2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/controller/ClubController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/controller/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/dto/ClubDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/dto/EventDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/dto/RegistrationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/mapper/ClubMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/mapper/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/model/Club.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/repository/ClubRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/repository/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/security/SecurityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/ClubService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/impl/ClubServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/impl/EventServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/clubs-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/clubs-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/clubs-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/clubs-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/events-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/events-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/events-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/events-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;raghebelsaidi4&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/raghebelsaidi4/Spring-Framework.git&quot;,
+    &quot;accountId&quot;: &quot;416fe8d5-69f1-4f08-9951-8ff60408d877&quot;
+  }
+}</component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2sTGOtsCSMkUMKviD3Ue1kV3Lbq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.system.App.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #10.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #11.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #12.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #13.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #14.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #15.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #16.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #17.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #18.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #19.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #20.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #21.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #22.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #23.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #24.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #25.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #26.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #27.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #28.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #29.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #30.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #31.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #32.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #33.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #34.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #8.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #9.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mvc-demo [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mvc-demo [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mvc-demo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ChatTagsLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountsIdsRefresh&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyMigrateChatHistory-v2&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.DeprecatedChatLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MvcDemoApplication (2).executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.MvcDemoApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SpringJdbcProjectApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SpringJpaProjectApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SpringMvcProjectApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects spring/Spring-Framework/session-15/mvc-demo/pom.xml&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ragheb.mvc.dto" />
+      <recent name="com.ragheb.jpa.specification" />
+      <recent name="com.ragheb.jdbc.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects spring\Spring-Framework\spring-mvc-project\src\main\resources\static" />
+      <recent name="D:\projects spring\Spring-Framework\session-15\mvc-demo\src\main\webapp" />
+      <recent name="D:\projects spring\Spring-Framework\session-15\mvc-demo\src\main\WEB-INF\views" />
+      <recent name="D:\projects spring\Spring-Framework\session-15\mvc-demo\src\main\resources\templates" />
+      <recent name="D:\projects spring\Spring-Framework\session-15\mvc-demo\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringMvcProjectApplication">
+    <configuration name="generated-requests | #30" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#30" index="30" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #31" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#31" index="31" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #32" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#32" index="32" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #33" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#33" index="33" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #34" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#34" index="34" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringJdbcProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-jdbc-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ragheb.jdbc.SpringJdbcProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJpaProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-jpa-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ragheb.jpa.SpringJpaProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMvcProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-mvc-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ragheb.mvc.SpringMvcProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #34" />
+        <item itemvalue="HTTP Request.generated-requests | #33" />
+        <item itemvalue="HTTP Request.generated-requests | #32" />
+        <item itemvalue="HTTP Request.generated-requests | #31" />
+        <item itemvalue="HTTP Request.generated-requests | #30" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3896442d-3fb5-49f9-8aaf-158b0d5adb2f" name="Changes" comment="" />
+      <created>1738472122624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738472122624</updated>
+      <workItem from="1738472123887" duration="7716000" />
+      <workItem from="1738481947365" duration="8000" />
+      <workItem from="1738649137332" duration="6238000" />
+      <workItem from="1738731715665" duration="49000" />
+      <workItem from="1738832470025" duration="5409000" />
+      <workItem from="1740165412575" duration="2384000" />
+      <workItem from="1740167828905" duration="1164000" />
+      <workItem from="1740169454580" duration="11000" />
+      <workItem from="1740170478057" duration="285000" />
+      <workItem from="1740170780315" duration="815000" />
+      <workItem from="1740171627580" duration="468000" />
+      <workItem from="1740172110946" duration="1632000" />
+      <workItem from="1740174304006" duration="1868000" />
+      <workItem from="1740228538675" duration="12125000" />
+      <workItem from="1740252631504" duration="12928000" />
+      <workItem from="1740317219524" duration="98000" />
+      <workItem from="1740317338547" duration="14175000" />
+      <workItem from="1740348366020" duration="689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,710 @@
+GET http://localhost:8080/springmvc/greet
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T232012.404.json
+
+###
+
+GET http://localhost:8080/springmvc/greet
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T231817.404.json
+
+###
+
+GET http://localhost:8080/greet
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T231707.404.json
+
+###
+
+GET http://localhost:8080/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T231439.404.json
+
+###
+
+GET http://localhost:8080/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T231338.404.json
+
+###
+
+PUT http://localhost:8080/books/update
+Content-Type: application/json
+Content-Length: 110
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 3,
+  "name": "Spring Boot",
+  "price": 33000.0,
+  "author": {
+    "id": 3,
+    "name": "Ahmed"
+  }
+}
+
+###
+
+PUT http://localhost:8080/books/update
+Content-Type: application/json
+Content-Length: 200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 3,
+  "name": "Spring Boot",
+  "price": 33000.0,
+  "author": {
+    "id": 3,
+    "name": "Ahmed"
+  },
+  "createdBy": "",
+  "createdDate": "",
+  "lastModifiedAt": "",
+  "lastModifiedDate": ""
+}
+
+###
+
+GET http://localhost:8080/books/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T221956.200.json
+
+###
+
+POST http://localhost:8080/books/add
+Content-Type: application/json
+Content-Length: 98
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Spring Boot",
+  "price": 2000.0,
+  "author": {
+    "id": 3,
+    "name": "Ahmed"
+  }
+}
+
+###
+
+POST http://localhost:8080/books/add
+Content-Type: application/json
+Content-Length: 98
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Spring Boot",
+  "price": 2000.0,
+  "author": {
+    "id": 1,
+    "name": "Ahmed"
+  }
+}
+
+###
+
+POST http://localhost:8080/books/add
+Content-Type: application/json
+Content-Length: 98
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Spring Boot",
+  "price": 2000.0,
+  "author": {
+    "id": 2,
+    "name": "Ahmed"
+  }
+}
+
+###
+
+POST http://localhost:8080/books/add
+Content-Type: application/json
+Content-Length: 110
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "",
+  "name": "Spring Boot",
+  "price": 2000.0,
+  "author": {
+    "id": 2,
+    "name": "Ahmed"
+  }
+}
+
+###
+
+POST http://localhost:8080/books/add
+Content-Type: application/json
+Content-Length: 200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "",
+  "name": "Spring Boot",
+  "price": 2000.0,
+  "author": {
+    "id": 2,
+    "name": "Ahmed"
+  },
+  "createdBy": "",
+  "createdDate": "",
+  "lastModifiedAt": "",
+  "lastModifiedDate": ""
+}
+
+###
+
+POST http://localhost:8080/authors/add
+Content-Type: application/json
+Content-Length: 90
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "",
+  "name": "Ahmed",
+  "booksCount": 2,
+  "books": [
+    "book1","book2"
+  ]
+}
+
+<> 2025-02-22T221544.400.json
+
+###
+
+POST http://localhost:8080/authors/add
+Content-Type: application/json
+Content-Length: 157
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "",
+  "name": "Ahmed",
+  "booksCount": 2,
+  "books": [],
+  "createdBy": "",
+  "createdDate": "",
+  "lastModifiedAt": "",
+  "lastModifiedDate": ""
+}
+
+###
+
+GET http://localhost:8080/books/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T221346.200.json
+
+###
+
+GET http://localhost:8080/books/add
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 110
+
+{
+  "id": "",
+  "name": "Spring Boot",
+  "price": 4000.0,
+  "author": {
+    "id": 2,
+    "name": "Ahmed"
+  }
+}
+
+<> 2025-02-22T221321.400.json
+
+###
+
+GET http://localhost:8080/books/5
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 110
+
+{
+  "id": "",
+  "name": "Spring Boot",
+  "price": 4000.0,
+  "author": {
+    "id": 2,
+    "name": "Ahmed"
+  }
+}
+
+<> 2025-02-22T221305.200.json
+
+###
+
+POST http://localhost:8080/books/add
+Content-Type: application/json
+Content-Length: 140
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "",
+  "name": "Java Spring",
+  "price": 50000.0,
+  "author": {
+  "id": 5,
+  "name": "Ahmed"
+}
+}
+
+###
+
+POST http://localhost:8080/books/add
+Content-Type: application/json
+Content-Length: 239
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "",
+  "name": "Java Spring",
+  "price": 50000.0,
+  "author": {
+    "id": 5,
+    "name": "Ahmed"
+  },
+  "booksCount": "",
+  "discount": "",
+  "createdBy": "",
+  "createdDate": "",
+  "lastModifiedAt": "",
+  "lastModifiedDate": ""
+}
+
+###
+
+POST http://localhost:8080/books/add
+Content-Type: application/json
+Content-Length: 240
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "",
+  "name": "Java Spring",
+  "price": 50000.0,
+  "author": {
+    "id": "",
+    "name": "Ahmed"
+  },
+  "booksCount": "",
+  "discount": "",
+  "createdBy": "",
+  "createdDate": "",
+  "lastModifiedAt": "",
+  "lastModifiedDate": ""
+}
+
+###
+
+POST http://localhost:8080/books/add
+Content-Type: application/json
+Content-Length: 240
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": "",
+  "name": "Java Spring",
+  "price": 50000.0,
+  "author": {
+    "id": "",
+    "name": "Ahmed",
+  },
+  "booksCount": 2,
+  "discount": 30,
+  "createdBy": "",
+  "createdDate": "",
+  "lastModifiedAt": "",
+  "lastModifiedDate": ""
+}
+
+<> 2025-02-22T220954.400.json
+
+###
+
+DELETE http://localhost:8080/books/delete/40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-22T181313.200.txt
+
+###
+
+GET http://localhost:8080/books/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T175358.200.json
+
+###
+
+GET http://localhost:8080/books/5
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 57
+
+{
+  "id": 0,
+  "name": "",
+  "price": 0,
+  "author": {}
+}
+
+<> 2025-02-22T175319.200.json
+
+###
+
+GET http://localhost:8080/books/5
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 57
+
+{
+  "id": 0,
+  "name": "",
+  "price": 0,
+  "author": {}
+}
+
+<> 2025-02-22T175216.200.json
+
+###
+
+GET http://localhost:8080/books/5
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 57
+
+{
+  "id": 0,
+  "name": "",
+  "price": 0,
+  "author": {}
+}
+
+<> 2025-02-22T175145.200.json
+
+###
+
+GET http://localhost:8080/books/5
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 57
+
+{
+  "id": 0,
+  "name": "",
+  "price": 0,
+  "author": {}
+}
+
+<> 2025-02-22T175056.200.json
+
+###
+
+GET http://localhost:8080/employees/by-salary/10000.0
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> f.txt
+
+###
+
+GET http://localhost:8080/employees/by-name/Ragheb
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T170243.200.json
+
+###
+
+DELETE http://localhost:8080/employees/delete/5
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-22T170223.200.txt
+
+###
+
+DELETE http://localhost:8080/employees/delete/6
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-22T170209.200.txt
+
+###
+
+PUT http://localhost:8080/employees/update/5
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "employeeId": 6,
+  "name": "Sajda",
+  "salary": 40000.0
+}
+
+<> 2025-02-22T170146.200.txt
+
+###
+
+POST http://localhost:8080/employees/add
+Content-Type: application/json
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "employeeId": "",
+  "name": "Mai",
+  "salary": 50000.0
+}
+
+<> 2025-02-22T170013.200.txt
+
+###
+
+POST http://localhost:8080/employees/add
+Content-Type: application/json
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "employeeId": "",
+  "name": "Mai",
+  "salary": 50000.0
+}
+
+<> 2025-02-22T170012.200.txt
+
+###
+
+POST http://localhost:8080/employees/add
+Content-Type: application/json
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "employeeId": 0,
+  "name": "Mai",
+  "salary": 50000.0
+}
+
+<> 2025-02-22T170003.500.json
+
+###
+
+GET http://localhost:8080/employees/get/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T165924.200.json
+
+###
+
+GET http://localhost:8080/employees/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T165910.200.json
+
+###
+
+GET http://localhost:8080/employees/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T165902.200.json
+
+###
+
+GET http://localhost:8080/employees/count
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T165814.200.json
+
+###
+
+GET http://localhost:8080/employees
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 42
+
+{
+  "id": 0,
+  "name": "",
+  "salary": 0
+}
+
+<> 2025-02-22T160630.200.json
+
+###
+
+GET http://localhost:8080/employees/count
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T160601.200.json
+
+###
+
+GET http://localhost:8080/employees/3
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T160533.200.json
+
+###
+
+GET http://localhost:8080/employees/3
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T154258.404.json
+
+###
+
+GET http://localhost:8080/employees/count
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T154054.404.json
+
+###
+
+GET http://localhost:8080/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T001812.404.json
+
+###
+
+GET http://localhost:8080
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T001348.404.json
+
+###
+
+GET http://localhost:8080
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T001147.404.json
+
+###
+
+GET http://localhost:8081
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T000850.404.json
+
+###
+
+GET http://localhost:8081
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-02-22T000311.404.json
+
+###
+

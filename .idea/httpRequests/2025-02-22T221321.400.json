@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-02-22T20:13:21.915+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/books/add"
+}
