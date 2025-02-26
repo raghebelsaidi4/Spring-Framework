@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3896442d-3fb5-49f9-8aaf-158b0d5adb2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/controller/ClubController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/dto/ClubDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/dto/EventDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/dto/RegistrationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/mapper/ClubMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/mapper/EventMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/model/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/repository/ClubRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/repository/EventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/security/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/security/SecurityUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/ClubService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/impl/ClubServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/impl/EventServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/java/com/ragheb/mvc/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/clubs-create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/clubs-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/clubs-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/clubs-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/events-create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/events-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/events-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/events-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-project/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3896442d-3fb5-49f9-8aaf-158b0d5adb2f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -289,7 +247,7 @@
       <workItem from="1740252631504" duration="12928000" />
       <workItem from="1740317219524" duration="98000" />
       <workItem from="1740317338547" duration="14175000" />
-      <workItem from="1740348366020" duration="689000" />
+      <workItem from="1740348366020" duration="1073000" />
     </task>
     <servers />
   </component>
